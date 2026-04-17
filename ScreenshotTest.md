@@ -10,7 +10,7 @@ Compose Preview Screenshot Testing is a host-side screenshot testing tool that t
 
 **Key facts:**
 - Plugin ID: `com.android.compose.screenshot`
-- Latest stable alpha: `0.0.1-alpha13`
+- Current stable alpha: `0.0.1-alpha14` or find the latest version
 - Tests live in a dedicated `screenshotTest` source set (separate from `main` and `test`)
 - Reference images are stored in source control alongside code
 - Two Gradle tasks drive the workflow: `update` (capture) → `validate` (compare)
