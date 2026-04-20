@@ -27,7 +27,7 @@ Before touching any files, confirm the project meets these minimum versions:
 | Kotlin | ≥ 1.9.20 (2.0+ recommended) | ≥ 2.2.10 |
 | JDK | ≥ 17 | ≥ 17 |
 | Android Studio | any | Panda 1 Canary 4+ |
-| Screenshot plugin | ≥ 0.0.1-alpha13 | ≥ 0.0.1-alpha13 |
+| Screenshot plugin | ≥ 0.0.1-alpha14 | ≥ 0.0.1-alpha14 |
 
 Check versions:
 ```bash
@@ -49,7 +49,7 @@ Open `gradle/libs.versions.toml` and add the following entries. Insert into the 
 # ── [versions] ──────────────────────────────────────────────────────────────
 agp = "9.0.0-rc03"          # bump if already higher; never downgrade
 kotlin = "2.1.20"           # bump if already higher; never downgrade
-screenshot = "0.0.1-alpha13"
+screenshot = "0.0.1-alpha14"
 
 # ── [libraries] ─────────────────────────────────────────────────────────────
 screenshot-validation-api = { group = "com.android.tools.screenshot", name = "screenshot-validation-api", version.ref = "screenshot" }
@@ -84,7 +84,7 @@ plugins {
 **Without TOML:**
 ```kotlin
 plugins {
-    id("com.android.compose.screenshot") version "0.0.1-alpha13" apply false
+    id("com.android.compose.screenshot") version "0.0.1-alpha14" apply false
 }
 ```
 
@@ -125,7 +125,7 @@ dependencies {
 **Without TOML:**
 ```kotlin
 dependencies {
-    screenshotTestImplementation("com.android.tools.screenshot:screenshot-validation-api:0.0.1-alpha13")
+    screenshotTestImplementation("com.android.tools.screenshot:screenshot-validation-api:0.0.1-alpha14")
     screenshotTestImplementation("androidx.compose.ui:ui-tooling")
 }
 ```
