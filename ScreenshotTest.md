@@ -257,9 +257,9 @@ Run the **update** task to render and store reference screenshots. The task dete
   ```
 
 **After success:**
-1. Open the first generated reference image in Android Studio:
+1. Open the first generated reference image inside the Android Studio:
    - In the **Project** panel, navigate to `app/src/screenshotTestDebug/reference/`
-   - Double-click the first `.png` file to open it in the image viewer.
+   - Double-click the first `.png` file to open it.
 
 > **Commit reference images to source control.** They are the baseline for future comparisons.
 
